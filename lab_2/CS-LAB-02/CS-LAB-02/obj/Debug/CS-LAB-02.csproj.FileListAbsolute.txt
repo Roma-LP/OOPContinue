@@ -1,0 +1,14 @@
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\bin\Debug\CS-LAB-02.exe.config
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\bin\Debug\CS-LAB-02.exe
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\bin\Debug\CS-LAB-02.pdb
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS-LAB-02.csprojAssemblyReference.cache
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS_LAB_02.Properties.Resources.resources
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS-LAB-02.csproj.GenerateResource.cache
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS-LAB-02.csproj.CoreCompileInputs.cache
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS-LAB-02.exe
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS-LAB-02.pdb
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\bin\Debug\asa-TZ\CS-LAB-02.resources.dll
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS_LAB_02.Form1.resources
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS_LAB_02.Form1.asa-TZ.resources
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\asa-TZ\CS-LAB-02.resources.dll
+C:\БГТУ\ООТП (4 сем)\lab_2\CS-LAB-02\CS-LAB-02\obj\Debug\CS_LAB_02.Form2.resources
