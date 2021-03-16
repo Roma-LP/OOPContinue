@@ -61,7 +61,7 @@ namespace CS_LAB_02
             this.TB_SecName.Location = new System.Drawing.Point(92, 65);
             this.TB_SecName.Name = "TB_SecName";
             this.TB_SecName.Size = new System.Drawing.Size(119, 22);
-            this.TB_SecName.TabIndex = 3;
+            this.TB_SecName.TabIndex = 2;
             // 
             // LB_SecName
             // 
@@ -84,17 +84,17 @@ namespace CS_LAB_02
             // TB_MaskedNumber
             // 
             this.TB_MaskedNumber.Location = new System.Drawing.Point(92, 115);
-            this.TB_MaskedNumber.Mask = "(999) 000-0000";
+            this.TB_MaskedNumber.Mask = "(999) 00-0000009";
             this.TB_MaskedNumber.Name = "TB_MaskedNumber";
             this.TB_MaskedNumber.Size = new System.Drawing.Size(119, 22);
-            this.TB_MaskedNumber.TabIndex = 5;
+            this.TB_MaskedNumber.TabIndex = 3;
             // 
             // BT_SecSave
             // 
             this.BT_SecSave.Location = new System.Drawing.Point(17, 264);
             this.BT_SecSave.Name = "BT_SecSave";
             this.BT_SecSave.Size = new System.Drawing.Size(194, 46);
-            this.BT_SecSave.TabIndex = 6;
+            this.BT_SecSave.TabIndex = 5;
             this.BT_SecSave.Text = "Save";
             this.BT_SecSave.UseVisualStyleBackColor = true;
             this.BT_SecSave.Click += new System.EventHandler(this.BT_SecSave_Click);
@@ -113,7 +113,7 @@ namespace CS_LAB_02
             this.TB_NameFile.Location = new System.Drawing.Point(92, 174);
             this.TB_NameFile.Name = "TB_NameFile";
             this.TB_NameFile.Size = new System.Drawing.Size(119, 22);
-            this.TB_NameFile.TabIndex = 8;
+            this.TB_NameFile.TabIndex = 4;
             // 
             // Form2
             // 

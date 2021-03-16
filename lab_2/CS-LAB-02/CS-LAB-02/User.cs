@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CS_LAB_02
 {
-    class User
+    [Serializable]
+    public class User
     {
         PC Pc;
-        string Name;
+        public string Name;
         string SecName;
         string Number;
         string NameFile;
@@ -21,6 +22,13 @@ namespace CS_LAB_02
             SecName = secname;
             Number = number;
             NameFile = nameFile;
+        }
+
+        public User() { }
+
+        public override string ToString()
+        {
+            return Name+"  " + SecName+"  " + Number +"  "+ NameFile;
         }
     }
 

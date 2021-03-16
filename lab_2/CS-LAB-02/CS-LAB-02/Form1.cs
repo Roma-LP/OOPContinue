@@ -101,6 +101,9 @@ namespace CS_LAB_02
 
             FormPC.MBShow();
             DataPC.Add(FormPC);
+
+            Form2 SecondForm = new Form2(FormPC);
+            SecondForm.Show();
         }
 
         private void s(string str)
