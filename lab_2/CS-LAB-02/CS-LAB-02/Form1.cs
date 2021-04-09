@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace CS_LAB_02
 {
@@ -14,6 +15,8 @@ namespace CS_LAB_02
     {
         List<PC> DataPC = new List<PC>();
         PC FormPC;
+        public string NameFile;
+        bool CanContinue = false;
         public Form1()
         {
             InitializeComponent();
@@ -42,10 +45,12 @@ namespace CS_LAB_02
             if (String.IsNullOrEmpty(ComboBox_TypePC.Text))
             {
                 errorProvider_TypePC.SetError(LB_typePc, "Не указан тип компьютера!");
+                CanContinue = false;
             }
             else 
             {
                 errorProvider_TypePC.Clear();
+                CanContinue = true;
             }
         }
         private void UpDown_GPU_Validating(object sender, EventArgs e)
@@ -53,10 +58,12 @@ namespace CS_LAB_02
             if (String.IsNullOrEmpty(UpDown_GPU.Text))
             {
                 errorProvider_GPU.SetError(LB_GPU, "Не указана видеокарта!");
+                CanContinue = false;
             }
             else
             {
                 errorProvider_GPU.Clear();
+                CanContinue = true;
             }
         }
         private void RadBut_Validating(object sender, EventArgs e)
@@ -66,10 +73,11 @@ namespace CS_LAB_02
                 if (!RadBut_CPU2.Checked)
                 {
                     errorProvider_CPU.SetError(GroupLB_CPU, "Не указан процессор!");
-                    return;
+                    CanContinue = false;
                 }
             }
                 errorProvider_CPU.Clear();
+            CanContinue = true;
         }
         private void CheckBox_RAM_Validating(object sender, EventArgs e)
         {
@@ -82,16 +90,22 @@ namespace CS_LAB_02
                         if (!CheckBox_ROM4.Checked)
                         {
                             errorProvider_ROM.SetError(GroupLB_ROM, "Не указана память!");
-                            return;
+                            CanContinue = false;
                         }
                     }
                 }
             }
             errorProvider_ROM.Clear();
+            CanContinue = true;
         }
 
         private void BT_Add_Click(object sender, EventArgs e)
         {
+            if(!CanContinue)
+            {
+                MessageBox.Show("Заполните данные");
+                return;
+            }
             FormPC = new PC(ComboBox_TypePC.Text,
                 GetRadioButton(), 
                 UpDown_GPU.Text,
@@ -99,10 +113,9 @@ namespace CS_LAB_02
                 GetCheckBox(),
                 dateTimePicker1.Value);
 
-            FormPC.MBShow();
             DataPC.Add(FormPC);
 
-            Form2 SecondForm = new Form2(FormPC);
+            Form2 SecondForm = new Form2(FormPC,this);
             SecondForm.Show();
         }
 
@@ -116,16 +129,7 @@ namespace CS_LAB_02
             //--------------------------------------------------------------------------------------
             // приводим отправителя к элементу типа RadioButton
             CheckBox radioButton =(CheckBox)sender;
-            if (radioButton.Checked)
-            {
-                MessageBox.Show("Вы выбрали " + radioButton.Text);
-            }
-        }
-        private bool CheckCorrect()
-        {
-            //if (errorProvider_TypePC)
-              
-            return true;
+            
         }
 
         private List<string> GetCheckBox()
@@ -172,5 +176,41 @@ namespace CS_LAB_02
         {
             return FormPC;
         }
+
+        private void BT_Save_Click(object sender, EventArgs e)
+        {
+            SaveToFile();
+        }
+
+        private void SaveToFile()
+        {
+            //Если равно true, то новые данные добавляются в конец файла
+            //Если равно false, то файл перезаписываетсяя заново
+            using (StreamWriter sw = new StreamWriter(NameFile+".txt", false, Encoding.UTF8))
+            { 
+                sw.WriteLine(OutData.Text);
+            }
+            MessageBox.Show("Файл сохранён");
+        }
+
+        private void BT_Load_Click(object sender, EventArgs e)
+        {
+            LoadFromFile();
+        }
+
+        private void LoadFromFile()
+        {
+            openFileDialog1.Filter = "Текстовые файлы (*.txt)|*.txt";
+            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = openFileDialog1.FileName;
+            // читаем файл в строку
+            string fileText = System.IO.File.ReadAllText(filename);
+            OutData.Text = fileText;
+            MessageBox.Show("Файл открыт");
+        }
+
+       
     }
 }

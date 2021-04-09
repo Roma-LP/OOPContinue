@@ -10,7 +10,7 @@ namespace CS_LAB_02
     public class User
     {
         PC Pc;
-        public string Name;
+        string Name;
         string SecName;
         string Number;
         string NameFile;
@@ -28,7 +28,7 @@ namespace CS_LAB_02
 
         public override string ToString()
         {
-            return Name+"  " + SecName+"  " + Number +"  "+ NameFile;
+            return Name+"  " + SecName+"  " + Number +"  "+ NameFile+"  "  + Pc.ToString();
         }
     }
 

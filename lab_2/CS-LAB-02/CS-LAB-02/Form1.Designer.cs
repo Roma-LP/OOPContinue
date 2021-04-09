@@ -54,7 +54,7 @@ namespace CS_LAB_02
             this.GroupLB_CPU = new System.Windows.Forms.GroupBox();
             this.GroupLB_ROM = new System.Windows.Forms.GroupBox();
             this.errorProvider_ROM = new System.Windows.Forms.ErrorProvider(this.components);
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DataBase = new System.Windows.Forms.DataGridView();
             this.Column1_TypePC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2_CPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3_GPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +62,8 @@ namespace CS_LAB_02
             this.Column5_ROM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6_DataBuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BT_Add = new System.Windows.Forms.Button();
+            this.OutData = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_TypePC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_GPU)).BeginInit();
@@ -69,7 +71,7 @@ namespace CS_LAB_02
             this.GroupLB_CPU.SuspendLayout();
             this.GroupLB_ROM.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_ROM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataBase)).BeginInit();
             this.SuspendLayout();
             // 
             // errorProvider_TypePC
@@ -186,12 +188,14 @@ namespace CS_LAB_02
             resources.ApplyResources(this.BT_Save, "BT_Save");
             this.BT_Save.Name = "BT_Save";
             this.BT_Save.UseVisualStyleBackColor = true;
+            this.BT_Save.Click += new System.EventHandler(this.BT_Save_Click);
             // 
             // BT_Load
             // 
             resources.ApplyResources(this.BT_Load, "BT_Load");
             this.BT_Load.Name = "BT_Load";
             this.BT_Load.UseVisualStyleBackColor = true;
+            this.BT_Load.Click += new System.EventHandler(this.BT_Load_Click);
             // 
             // errorProvider_GPU
             // 
@@ -224,19 +228,19 @@ namespace CS_LAB_02
             // 
             this.errorProvider_ROM.ContainerControl = this;
             // 
-            // dataGridView1
+            // DataBase
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DataBase.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataBase.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1_TypePC,
             this.Column2_CPU,
             this.Column3_GPU,
             this.Column4_RAM,
             this.Column5_ROM,
             this.Column6_DataBuy});
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
+            resources.ApplyResources(this.DataBase, "DataBase");
+            this.DataBase.Name = "DataBase";
+            this.DataBase.RowTemplate.Height = 24;
             // 
             // Column1_TypePC
             // 
@@ -281,12 +285,19 @@ namespace CS_LAB_02
             this.BT_Add.UseVisualStyleBackColor = true;
             this.BT_Add.Click += new System.EventHandler(this.BT_Add_Click);
             // 
+            // OutData
+            // 
+            resources.ApplyResources(this.OutData, "OutData");
+            this.OutData.Name = "OutData";
+            this.OutData.ReadOnly = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.OutData);
             this.Controls.Add(this.BT_Add);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DataBase);
             this.Controls.Add(this.GroupLB_ROM);
             this.Controls.Add(this.GroupLB_CPU);
             this.Controls.Add(this.BT_Load);
@@ -310,7 +321,7 @@ namespace CS_LAB_02
             this.GroupLB_ROM.ResumeLayout(false);
             this.GroupLB_ROM.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_ROM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataBase)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -340,7 +351,7 @@ namespace CS_LAB_02
         private System.Windows.Forms.GroupBox GroupLB_CPU;
         private System.Windows.Forms.GroupBox GroupLB_ROM;
         private System.Windows.Forms.ErrorProvider errorProvider_ROM;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DataBase;
         private System.Windows.Forms.Button BT_Add;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1_TypePC;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2_CPU;
@@ -348,6 +359,8 @@ namespace CS_LAB_02
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4_RAM;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5_ROM;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6_DataBuy;
+        public System.Windows.Forms.TextBox OutData;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

@@ -16,9 +16,11 @@ namespace CS_LAB_02
     {
         PC pc;
         User UserForm;
-        public Form2(PC pc)
+        Form1 MainForm;
+        public Form2(PC pc,Form1 form)
         {
             this.pc = pc;
+            this.MainForm = form;
             InitializeComponent();
         }
 
@@ -32,25 +34,21 @@ namespace CS_LAB_02
                 TB_NameFile.Text
                 );
 
-            MessageBox.Show(UserForm.ToString());
-            SaveToFile();
 
-
-
+            MainForm.OutData.Text += OutData() + "\n";
+            MessageBox.Show("Данные записаны");
+            MainForm.NameFile = TB_NameFile.Text;
+            this.Close();
         }
 
-        private void SaveToFile()
+        
+
+        private string OutData()
         {
-            // передаем в конструктор тип класса
-            XmlSerializer formatter = new XmlSerializer(typeof(User));
-
-            // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream(TB_NameFile.Text+".xml", FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, UserForm);
-                Console.WriteLine("Объект сериализован");
-            }
+            string str="";
+            str = UserForm.ToString();
+            return str;
+            
         }
-
     }
 }

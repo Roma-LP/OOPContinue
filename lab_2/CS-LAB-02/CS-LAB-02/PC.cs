@@ -32,5 +32,19 @@ namespace CS_LAB_02
             System.Windows.Forms.MessageBox.Show($"{TypePc} {CPU} {GPU} {RAM} {ROM} {DateOrder.ToShortDateString()}");
         }
 
+        public override string ToString()
+        {
+            return TypePc + "  " + CPU + "  " + GPU + "  " + RAM + "-GB  "+GetStrROM()+"  "+DateOrder.ToShortDateString();
+        }
+
+        private string GetStrROM()
+        {
+            string str ="" ;
+            for(int i=0;i<ROM.Count;i++)
+            {
+                str = str + ROM[i]+" ";
+            }
+            return str;
+        }
     }
 }

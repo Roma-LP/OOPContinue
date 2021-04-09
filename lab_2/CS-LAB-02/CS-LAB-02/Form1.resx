@@ -133,13 +133,37 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1072, 527</value>
   </data>
+  <data name="OutData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 189</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OutData.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OutData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>777, 256</value>
+  </data>
+  <data name="OutData.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;OutData.Name" xml:space="preserve">
+    <value>OutData</value>
+  </data>
+  <data name="&gt;&gt;OutData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OutData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="BT_Add.Location" type="System.Drawing.Point, System.Drawing">
     <value>758, 468</value>
   </data>
   <data name="BT_Add.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 47</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BT_Add.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
@@ -156,7 +180,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Add.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="Column1_TypePC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -230,29 +254,29 @@
   <data name="Column6_DataBuy.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="DataBase.Location" type="System.Drawing.Point, System.Drawing">
     <value>227, 15</value>
   </data>
-  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+  <data name="DataBase.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="DataBase.Size" type="System.Drawing.Size, System.Drawing">
     <value>804, 150</value>
   </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="DataBase.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
+  <data name="&gt;&gt;DataBase.Name" xml:space="preserve">
+    <value>DataBase</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;DataBase.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;DataBase.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;DataBase.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="CheckBox_ROM2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -388,7 +412,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_ROM.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="RadBut_CPU1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -469,7 +493,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_CPU.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BT_Load.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -496,7 +520,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Load.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="BT_Save.Location" type="System.Drawing.Point, System.Drawing">
     <value>368, 468</value>
@@ -520,7 +544,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Save.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="LB_DataBuy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -547,7 +571,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_DataBuy.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 470</value>
@@ -568,7 +592,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="LB_SizeTotalRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -595,7 +619,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeTotalRAM.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="TrackBarRAM.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 253</value>
@@ -616,7 +640,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TrackBarRAM.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="LB_SizeRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -643,7 +667,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeRAM.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="UpDown_GPU.Items" xml:space="preserve">
     <value>Nvidia GTX 1660</value>
@@ -682,7 +706,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UpDown_GPU.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="LB_GPU.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -709,7 +733,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_GPU.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="ComboBox_TypePC.Items" xml:space="preserve">
     <value>Ноутбук</value>
@@ -739,7 +763,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ComboBox_TypePC.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="LB_typePc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -766,7 +790,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_typePc.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>IT лаборатория</value>
@@ -831,6 +855,12 @@
   <data name="&gt;&gt;Column6_DataBuy.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
   </data>
@@ -841,9 +871,12 @@
     <value>221, 17</value>
   </metadata>
   <metadata name="errorProvider_CPU.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>404, 17</value>
+    <value>411, 17</value>
   </metadata>
   <metadata name="errorProvider_ROM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>586, 17</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>774, 17</value>
   </metadata>
 </root>
