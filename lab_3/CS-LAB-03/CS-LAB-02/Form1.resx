@@ -128,20 +128,126 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1537, 533</value>
+    <value>1153, 506</value>
   </data>
-  <data name="OutData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 189</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BT_About.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BT_About.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BT_About.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BT_About.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 409</value>
+  </data>
+  <data name="BT_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BT_About.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;BT_About.Name" xml:space="preserve">
+    <value>BT_About</value>
+  </data>
+  <data name="&gt;&gt;BT_About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BT_About.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BT_About.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CloseForm1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="CloseForm1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CloseForm1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="CloseForm1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CloseForm1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>946, 409</value>
+  </data>
+  <data name="CloseForm1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CloseForm1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="CloseForm1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CloseForm1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="CloseForm1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;CloseForm1.Name" xml:space="preserve">
+    <value>CloseForm1</value>
+  </data>
+  <data name="&gt;&gt;CloseForm1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseForm1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CloseForm1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BT_Find.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BT_Find.Location" type="System.Drawing.Point, System.Drawing">
+    <value>802, 409</value>
+  </data>
+  <data name="BT_Find.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="BT_Find.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 38</value>
+  </data>
+  <data name="BT_Find.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BT_Find.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="&gt;&gt;BT_Find.Name" xml:space="preserve">
+    <value>BT_Find</value>
+  </data>
+  <data name="&gt;&gt;BT_Find.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BT_Find.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BT_Find.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OutData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 183</value>
+  </data>
+  <data name="OutData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="OutData.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="OutData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 256</value>
+    <value>958, 209</value>
   </data>
   <data name="OutData.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -156,13 +262,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;OutData.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
+  </data>
+  <data name="BT_Add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="BT_Add.Location" type="System.Drawing.Point, System.Drawing">
-    <value>758, 468</value>
+    <value>572, 409</value>
+  </data>
+  <data name="BT_Add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="BT_Add.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 47</value>
+    <value>226, 38</value>
   </data>
   <data name="BT_Add.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -180,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Add.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <metadata name="Column1_TypePC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -192,7 +304,7 @@
     <value>6</value>
   </data>
   <data name="Column1_TypePC.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>95</value>
   </data>
   <metadata name="Column2_CPU.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -204,7 +316,7 @@
     <value>6</value>
   </data>
   <data name="Column2_CPU.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>60</value>
   </data>
   <metadata name="Column3_GPU.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -228,7 +340,7 @@
     <value>6</value>
   </data>
   <data name="Column4_RAM.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>40</value>
   </data>
   <metadata name="Column5_ROM.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -252,13 +364,13 @@
     <value>6</value>
   </data>
   <data name="Column6_DataBuy.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>80</value>
+  </data>
+  <data name="FirstName.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
   </data>
   <data name="FirstName.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="FirstName.Width" type="System.Int32, mscorlib">
-    <value>125</value>
   </data>
   <metadata name="Surname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -268,9 +380,6 @@
   </data>
   <data name="Surname.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="Surname.Width" type="System.Int32, mscorlib">
-    <value>125</value>
   </data>
   <metadata name="Tel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -282,7 +391,7 @@
     <value>6</value>
   </data>
   <data name="Tel.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>95</value>
   </data>
   <metadata name="FileName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -294,16 +403,19 @@
     <value>6</value>
   </data>
   <data name="FileName.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>105</value>
   </data>
   <data name="DataBase.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 15</value>
+    <value>174, 41</value>
+  </data>
+  <data name="DataBase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="DataBase.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="DataBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1304, 150</value>
+    <value>978, 122</value>
   </data>
   <data name="DataBase.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -318,20 +430,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DataBase.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="CheckBox_ROM2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CheckBox_ROM2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="CheckBox_ROM2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 52</value>
+    <value>4, 42</value>
+  </data>
+  <data name="CheckBox_ROM2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="CheckBox_ROM2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
+    <value>62, 17</value>
   </data>
   <data name="CheckBox_ROM2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -354,11 +468,17 @@
   <data name="CheckBox_ROM1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="CheckBox_ROM1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="CheckBox_ROM1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 24</value>
+    <value>4, 20</value>
+  </data>
+  <data name="CheckBox_ROM1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="CheckBox_ROM1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
+    <value>62, 17</value>
   </data>
   <data name="CheckBox_ROM1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -381,11 +501,17 @@
   <data name="CheckBox_ROM3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="CheckBox_ROM3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="CheckBox_ROM3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 80</value>
+    <value>4, 65</value>
+  </data>
+  <data name="CheckBox_ROM3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="CheckBox_ROM3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 21</value>
+    <value>49, 17</value>
   </data>
   <data name="CheckBox_ROM3.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -408,11 +534,17 @@
   <data name="CheckBox_ROM4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="CheckBox_ROM4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="CheckBox_ROM4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 108</value>
+    <value>4, 88</value>
+  </data>
+  <data name="CheckBox_ROM4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="CheckBox_ROM4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 21</value>
+    <value>49, 17</value>
   </data>
   <data name="CheckBox_ROM4.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -433,10 +565,16 @@
     <value>3</value>
   </data>
   <data name="GroupLB_ROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 309</value>
+    <value>13, 280</value>
+  </data>
+  <data name="GroupLB_ROM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GroupLB_ROM.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="GroupLB_ROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 136</value>
+    <value>150, 110</value>
   </data>
   <data name="GroupLB_ROM.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -454,16 +592,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_ROM.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="RadBut_CPU1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="RadBut_CPU1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="RadBut_CPU1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 31</value>
+    <value>4, 25</value>
+  </data>
+  <data name="RadBut_CPU1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="RadBut_CPU1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 21</value>
+    <value>49, 17</value>
   </data>
   <data name="RadBut_CPU1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -490,10 +634,13 @@
     <value>NoControl</value>
   </data>
   <data name="RadBut_CPU2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 59</value>
+    <value>4, 48</value>
+  </data>
+  <data name="RadBut_CPU2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="RadBut_CPU2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 21</value>
+    <value>45, 17</value>
   </data>
   <data name="RadBut_CPU2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -514,10 +661,16 @@
     <value>1</value>
   </data>
   <data name="GroupLB_CPU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 72</value>
+    <value>13, 87</value>
+  </data>
+  <data name="GroupLB_CPU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GroupLB_CPU.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="GroupLB_CPU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 93</value>
+    <value>150, 76</value>
   </data>
   <data name="GroupLB_CPU.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -535,16 +688,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_CPU.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="BT_Load.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="BT_Load.Location" type="System.Drawing.Point, System.Drawing">
-    <value>563, 468</value>
+    <value>426, 409</value>
+  </data>
+  <data name="BT_Load.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="BT_Load.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 47</value>
+    <value>142, 38</value>
   </data>
   <data name="BT_Load.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -562,13 +718,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Load.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
+  </data>
+  <data name="BT_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="BT_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 468</value>
+    <value>280, 409</value>
+  </data>
+  <data name="BT_Save.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="BT_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 47</value>
+    <value>142, 38</value>
   </data>
   <data name="BT_Save.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -586,16 +748,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Save.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="LB_DataBuy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LB_DataBuy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LB_DataBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 450</value>
+    <value>11, 395</value>
+  </data>
+  <data name="LB_DataBuy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="LB_DataBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 17</value>
+    <value>80, 13</value>
   </data>
   <data name="LB_DataBuy.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -613,13 +781,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_DataBuy.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 470</value>
+    <value>13, 411</value>
+  </data>
+  <data name="dateTimePicker1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
+    <value>151, 20</value>
   </data>
   <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -634,16 +805,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="LB_SizeTotalRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LB_SizeTotalRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LB_SizeTotalRAM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 233</value>
+    <value>72, 218</value>
+  </data>
+  <data name="LB_SizeTotalRAM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="LB_SizeTotalRAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+    <value>31, 13</value>
   </data>
   <data name="LB_SizeTotalRAM.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -661,13 +838,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeTotalRAM.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
+  </data>
+  <data name="TrackBarRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="TrackBarRAM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 253</value>
+    <value>15, 235</value>
+  </data>
+  <data name="TrackBarRAM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="TrackBarRAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 56</value>
+    <value>159, 45</value>
   </data>
   <data name="TrackBarRAM.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -682,16 +865,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TrackBarRAM.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="LB_SizeRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LB_SizeRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LB_SizeRAM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 233</value>
+    <value>13, 218</value>
+  </data>
+  <data name="LB_SizeRAM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="LB_SizeRAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 17</value>
+    <value>33, 13</value>
   </data>
   <data name="LB_SizeRAM.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -709,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeRAM.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="UpDown_GPU.Items" xml:space="preserve">
     <value>Nvidia GTX 1660</value>
@@ -724,16 +913,16 @@
     <value>AMD Radeon RX 6800</value>
   </data>
   <data name="UpDown_GPU.Items4" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UpDown_GPU.Items5" xml:space="preserve">
     <value>AMD Radeon RX 6800X</value>
   </data>
   <data name="UpDown_GPU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 189</value>
+    <value>14, 183</value>
+  </data>
+  <data name="UpDown_GPU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="UpDown_GPU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
+    <value>149, 20</value>
   </data>
   <data name="UpDown_GPU.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -748,16 +937,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UpDown_GPU.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="LB_GPU.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LB_GPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LB_GPU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 168</value>
+    <value>14, 165</value>
+  </data>
+  <data name="LB_GPU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="LB_GPU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 17</value>
+    <value>70, 13</value>
   </data>
   <data name="LB_GPU.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -775,7 +970,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_GPU.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="ComboBox_TypePC.Items" xml:space="preserve">
     <value>Ноутбук</value>
@@ -787,10 +982,13 @@
     <value>Рабочая станция</value>
   </data>
   <data name="ComboBox_TypePC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 29</value>
+    <value>15, 53</value>
+  </data>
+  <data name="ComboBox_TypePC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="ComboBox_TypePC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 24</value>
+    <value>92, 21</value>
   </data>
   <data name="ComboBox_TypePC.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -805,16 +1003,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ComboBox_TypePC.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="LB_typePc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LB_typePc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LB_typePc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+    <value>13, 36</value>
+  </data>
+  <data name="LB_typePc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="LB_typePc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 17</value>
+    <value>95, 13</value>
   </data>
   <data name="LB_typePc.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -832,7 +1036,85 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_typePc.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>914, 17</value>
+  </metadata>
+  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="выходToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="выходToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="проектToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="проектToolStripMenuItem.Text" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="загрузитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="загрузитьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="сохранитьКакToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="сохранитьКакToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1Form</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>IT лаборатория</value>
@@ -926,6 +1208,54 @@
   </data>
   <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;проектToolStripMenuItem.Name" xml:space="preserve">
+    <value>проектToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;проектToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Name" xml:space="preserve">
+    <value>оПрограммеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;выходToolStripMenuItem.Name" xml:space="preserve">
+    <value>выходToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;выходToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Name" xml:space="preserve">
+    <value>файлToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;загрузитьToolStripMenuItem.Name" xml:space="preserve">
+    <value>загрузитьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;загрузитьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem.Name" xml:space="preserve">
+    <value>сохранитьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сохранитьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сохранитьКакToolStripMenuItem.Name" xml:space="preserve">
+    <value>сохранитьКакToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сохранитьКакToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

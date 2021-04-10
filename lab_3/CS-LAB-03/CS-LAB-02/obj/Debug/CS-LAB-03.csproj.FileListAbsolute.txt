@@ -47,3 +47,40 @@ C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Text.
 C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.ValueTuple.xml
 C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csproj.CopyComplete
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\CS-LAB-02.exe.config
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\CS-LAB-02.exe
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\CS-LAB-02.pdb
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\asa-TZ\CS-LAB-02.resources.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\Newtonsoft.Json.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Buffers.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Memory.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Numerics.Vectors.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Text.Encodings.Web.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Text.Json.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.ValueTuple.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\Newtonsoft.Json.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Buffers.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Memory.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Numerics.Vectors.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Text.Encodings.Web.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Text.Json.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\bin\Debug\System.ValueTuple.xml
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csprojAssemblyReference.cache
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.FindForm.resources
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.Form1.resources
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.Form2.resources
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.Properties.Resources.resources
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.Form1.asa-TZ.resources
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csproj.GenerateResource.cache
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csproj.CoreCompileInputs.cache
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\asa-TZ\CS-LAB-02.resources.dll
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csproj.CopyComplete
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-02.exe
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-02.pdb
+D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.AboutForm.resources

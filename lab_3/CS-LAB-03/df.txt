@@ -1,0 +1,6 @@
+﻿eee  eee  (333) 33-3333333  ee  Рабочая станция  Intel  AMD Radeon RX 6800  10-GB  250 GB 1 TB 2 TB   10.04.2021
+www  www  (444) 44-4444444  eee  Сервер  AMD  Nvidia GTX 1660 Super  4-GB  500 GB 250 GB 1 TB   10.04.2021
+roma  lp  (337) 37-7367363  test  Сервер  AMD  AMD Radeon RX 6800X  10-GB  500 GB 250 GB 1 TB   18.06.2004
+vlad  rt  (929) 29-2929292  test  Рабочая станция  Intel  Nvidia GTX 1660 TI  16-GB  500 GB 250 GB 1 TB 2 TB   08.07.1994
+t  t  (444)   -  df  Рабочая станция  Intel  Nvidia GTX 1660 Super  12-GB  1 TB 2 TB   10.04.2021
+

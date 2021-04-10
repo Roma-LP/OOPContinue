@@ -16,7 +16,6 @@ namespace CS_LAB_02
     public partial class Form1 : Form
     {
         Users DataUser = new Users();
-       // List<User> DataUser = new List<User>();
         PC FormPC;
         public string NameFile;
         bool CanContinue = false;
@@ -114,7 +113,7 @@ namespace CS_LAB_02
                 UpDown_GPU.Text,
                 TrackBarRAM.Value,
                 GetCheckBox(),
-                dateTimePicker1.Value);
+                dateTimePicker1.Value.Date);
 
            // DataBase.Rows.Add(FormPC);
             Form2 SecondForm = new Form2(FormPC,this);
@@ -185,7 +184,6 @@ namespace CS_LAB_02
             using (FileStream fs = new FileStream("../../../"+NameFile +".xml", FileMode.OpenOrCreate))
             {
                 formatter.Serialize(fs,DataUser);
-                //formatter.Serialize(fs,FormPC);
             }
 
             //Если равно true, то новые данные добавляются в конец файла
@@ -215,12 +213,12 @@ namespace CS_LAB_02
             {
                 DataUser = (Users)formatter.Deserialize(fs);
                 AddUsersInDataBase();
-                MessageBox.Show("Объект десериализован");
+                //MessageBox.Show("Объект десериализован");
             }
             // читаем файл в строку
             string fileText = System.IO.File.ReadAllText(filename.Remove(filename.Length-3)+"txt");
-            OutData.Text = fileText;
-            MessageBox.Show("Файл открыт");
+            OutData.Text += fileText.Remove(fileText.Length - 2);
+            //MessageBox.Show("Файл открыт");
         }
 
         public void AddInListUser(User user)
@@ -237,7 +235,7 @@ namespace CS_LAB_02
                 DataUser.UserList[i].Pc.GPU,
                 DataUser.UserList[i].Pc.RAM,
                 DataUser.UserList[i].Pc.GetStrROM(),
-                DataUser.UserList[i].Pc.DateOrder,
+                DataUser.UserList[i].Pc.DateOrder.ToShortDateString(),
                 DataUser.UserList[i].FirstName,
                 DataUser.UserList[i].SecName,
                 DataUser.UserList[i].Number,
@@ -251,11 +249,53 @@ namespace CS_LAB_02
                 user.Pc.GPU,
                 user.Pc.RAM,
                 user.Pc.GetStrROM(),
-                user.Pc.DateOrder,
+                user.Pc.DateOrder.ToShortDateString(),
                 user.FirstName,
                 user.SecName,
                 user.Number,
                 user.NameFile);
+        }
+
+        private void BT_Find_Click(object sender, EventArgs e)
+        {
+            FindForm Findform = new FindForm(DataUser);
+            Findform.Show();
+        }
+
+        private void CloseForm1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowAboutForm();
+        }
+
+        public void ShowAboutForm()
+        {
+            AboutForm aboutForm = new AboutForm();
+            aboutForm.Show();
+        }
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BT_About_Click(object sender, EventArgs e)
+        {
+            ShowAboutForm();
+        }
+
+        private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFromFile();
+        }
+
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveToFile();
         }
     }
 }
