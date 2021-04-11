@@ -21,7 +21,7 @@ namespace CS_LAB_02
 
         private void BT_Find3Form_Click(object sender, EventArgs e)
         {
-            TB_Result.Text = "";
+            ClearFindResult();
 
             switch (TabControl.SelectedIndex)
             {
@@ -69,11 +69,11 @@ namespace CS_LAB_02
                     {
                         if (UpDown_GPU3Form.Text.Equals(users.UserList[i].Pc.GPU) || UpDown_GPU3Form.Text.Equals(""))
                         {
-                            if (domainUpDown1.Text.Equals(users.UserList[i].Pc.RAM) || domainUpDown1.Text.Equals(""))
+                            if (UpDown_RAM3Form.Text.Equals(users.UserList[i].Pc.RAM) || UpDown_RAM3Form.Text.Equals(""))
                             {
                                 if (CheckCheckBoxRAM(i) || GetCheckBox().Count == 0)
                                 {
-                                    if (dateTimePicker1_3Form.Value.ToShortDateString().Equals(users.UserList[i].Pc.DateOrder.ToShortDateString()) || dateTimePicker1_3Form.Value.ToShortDateString().Equals(""))
+                                    if (dateTimePicker1_3Form.Value.ToShortDateString().Equals(users.UserList[i].Pc.DateOrder.ToShortDateString()) || CheckBox_DateOff.Checked)
                                     {
                                         TB_Result.Text += users.UserList[i].ToString() + "\r\n";
                                     }
@@ -93,6 +93,111 @@ namespace CS_LAB_02
         private void CloseForm3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void CheckBox_DateOff_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox_DateOff.Checked)
+            {
+                dateTimePicker1_3Form.Enabled = false;
+            }
+            else
+            {
+                dateTimePicker1_3Form.Enabled = true;
+
+            }
+        }
+
+        private void BT_ClerAll_3Form_Click(object sender, EventArgs e)
+        {
+            ClearFindResult();
+            switch (TabControl.SelectedIndex)
+            {
+                case 0:
+                    {
+                        ClearTypePC();
+                        ClearCPU();
+                        ClearGPU();
+                        ClearRAM();
+                        ClearROM();
+                        ClearData();
+                        break;
+                    }
+                case 1:
+                    {
+                        RegexFinder();
+                        break;
+                    }
+                default:
+                    break;
+
+
+            }
+        }
+
+        private void ClearFindResult()
+        {
+            TB_Result.Text = "";
+        }
+        private void ClearTypePC()
+        {
+            ComboBox_TypePC3Form.Text = "";
+        }
+        private void ClearCPU()
+        {
+            ComboBox_CPU3Form.Text = "";
+        }
+        private void ClearGPU()
+        {
+            UpDown_GPU3Form.Text = "";
+        }
+        private void ClearRAM()
+        {
+            UpDown_RAM3Form.Text = "";
+        }
+        private void ClearROM()
+        {
+            foreach (Control item in GroupLB_ROM3Form.Controls)
+            {
+                if (item is CheckBox)
+                {
+                    CheckBox radioButton = (CheckBox)item;
+                    if (radioButton.Checked)
+                    {
+                        // MessageBox.Show(item.Name + " - " + radioButton.Text + " - " + item.Parent.Name);
+                        radioButton.Checked = false;
+                    }
+                }
+            }
+        }
+        private void ClearData()
+        {
+            CheckBox_DateOff.Checked = true;
+        }
+
+        private void BT_ClearTypePC_3Form_Click(object sender, EventArgs e)
+        {
+            ClearTypePC();
+        }
+
+        private void BT_ClearCPU_3Form_Click(object sender, EventArgs e)
+        {
+            ClearCPU();
+        }
+
+        private void BT_ClearGPU_3Form_Click(object sender, EventArgs e)
+        {
+            ClearGPU();
+        }
+
+        private void BT_ClearRAM_3Form_Click(object sender, EventArgs e)
+        {
+            ClearRAM();
+        }
+
+        private void BT_ClearROM_3Form_Click(object sender, EventArgs e)
+        {
+            ClearROM();
         }
     }
 }

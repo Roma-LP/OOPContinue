@@ -30,7 +30,7 @@
         {
             this.TabControl = new System.Windows.Forms.TabControl();
             this.SimpleTab = new System.Windows.Forms.TabPage();
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
+            this.UpDown_RAM3Form = new System.Windows.Forms.DomainUpDown();
             this.LB_DataBuy3Form = new System.Windows.Forms.Label();
             this.dateTimePicker1_3Form = new System.Windows.Forms.DateTimePicker();
             this.GroupLB_ROM3Form = new System.Windows.Forms.GroupBox();
@@ -50,6 +50,13 @@
             this.BT_Find3Form = new System.Windows.Forms.Button();
             this.TB_Result = new System.Windows.Forms.TextBox();
             this.CloseForm3 = new System.Windows.Forms.Button();
+            this.CheckBox_DateOff = new System.Windows.Forms.CheckBox();
+            this.BT_ClerAll_3Form = new System.Windows.Forms.Button();
+            this.BT_ClearTypePC_3Form = new System.Windows.Forms.Button();
+            this.BT_ClearCPU_3Form = new System.Windows.Forms.Button();
+            this.BT_ClearGPU_3Form = new System.Windows.Forms.Button();
+            this.BT_ClearRAM_3Form = new System.Windows.Forms.Button();
+            this.BT_ClearROM_3Form = new System.Windows.Forms.Button();
             this.TabControl.SuspendLayout();
             this.SimpleTab.SuspendLayout();
             this.GroupLB_ROM3Form.SuspendLayout();
@@ -69,7 +76,13 @@
             // 
             // SimpleTab
             // 
-            this.SimpleTab.Controls.Add(this.domainUpDown1);
+            this.SimpleTab.Controls.Add(this.BT_ClearROM_3Form);
+            this.SimpleTab.Controls.Add(this.BT_ClearRAM_3Form);
+            this.SimpleTab.Controls.Add(this.BT_ClearGPU_3Form);
+            this.SimpleTab.Controls.Add(this.BT_ClearCPU_3Form);
+            this.SimpleTab.Controls.Add(this.BT_ClearTypePC_3Form);
+            this.SimpleTab.Controls.Add(this.CheckBox_DateOff);
+            this.SimpleTab.Controls.Add(this.UpDown_RAM3Form);
             this.SimpleTab.Controls.Add(this.LB_DataBuy3Form);
             this.SimpleTab.Controls.Add(this.dateTimePicker1_3Form);
             this.SimpleTab.Controls.Add(this.GroupLB_ROM3Form);
@@ -88,21 +101,21 @@
             this.SimpleTab.Text = "Обычный";
             this.SimpleTab.UseVisualStyleBackColor = true;
             // 
-            // domainUpDown1
+            // UpDown_RAM3Form
             // 
-            this.domainUpDown1.Items.Add("2");
-            this.domainUpDown1.Items.Add("4");
-            this.domainUpDown1.Items.Add("6");
-            this.domainUpDown1.Items.Add("8");
-            this.domainUpDown1.Items.Add("10");
-            this.domainUpDown1.Items.Add("12");
-            this.domainUpDown1.Items.Add("14");
-            this.domainUpDown1.Items.Add("16");
-            this.domainUpDown1.Location = new System.Drawing.Point(355, 20);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.ReadOnly = true;
-            this.domainUpDown1.Size = new System.Drawing.Size(64, 20);
-            this.domainUpDown1.TabIndex = 20;
+            this.UpDown_RAM3Form.Items.Add("2");
+            this.UpDown_RAM3Form.Items.Add("4");
+            this.UpDown_RAM3Form.Items.Add("6");
+            this.UpDown_RAM3Form.Items.Add("8");
+            this.UpDown_RAM3Form.Items.Add("10");
+            this.UpDown_RAM3Form.Items.Add("12");
+            this.UpDown_RAM3Form.Items.Add("14");
+            this.UpDown_RAM3Form.Items.Add("16");
+            this.UpDown_RAM3Form.Location = new System.Drawing.Point(355, 20);
+            this.UpDown_RAM3Form.Name = "UpDown_RAM3Form";
+            this.UpDown_RAM3Form.ReadOnly = true;
+            this.UpDown_RAM3Form.Size = new System.Drawing.Size(64, 20);
+            this.UpDown_RAM3Form.TabIndex = 20;
             // 
             // LB_DataBuy3Form
             // 
@@ -117,6 +130,7 @@
             // 
             // dateTimePicker1_3Form
             // 
+            this.dateTimePicker1_3Form.Enabled = false;
             this.dateTimePicker1_3Form.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1_3Form.Location = new System.Drawing.Point(580, 22);
             this.dateTimePicker1_3Form.Margin = new System.Windows.Forms.Padding(2);
@@ -137,7 +151,7 @@
             this.GroupLB_ROM3Form.Size = new System.Drawing.Size(150, 110);
             this.GroupLB_ROM3Form.TabIndex = 12;
             this.GroupLB_ROM3Form.TabStop = false;
-            this.GroupLB_ROM3Form.Text = "ПЗУ:";
+            this.GroupLB_ROM3Form.Text = "ROM:";
             // 
             // CheckBox_ROM2_3Form
             // 
@@ -325,9 +339,10 @@
             this.CloseForm3.BackColor = System.Drawing.Color.Red;
             this.CloseForm3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.CloseForm3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CloseForm3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CloseForm3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CloseForm3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CloseForm3.Location = new System.Drawing.Point(160, 401);
+            this.CloseForm3.Location = new System.Drawing.Point(306, 401);
             this.CloseForm3.Margin = new System.Windows.Forms.Padding(0);
             this.CloseForm3.Name = "CloseForm3";
             this.CloseForm3.Size = new System.Drawing.Size(38, 38);
@@ -336,11 +351,93 @@
             this.CloseForm3.UseVisualStyleBackColor = false;
             this.CloseForm3.Click += new System.EventHandler(this.CloseForm3_Click);
             // 
+            // CheckBox_DateOff
+            // 
+            this.CheckBox_DateOff.AutoSize = true;
+            this.CheckBox_DateOff.Checked = true;
+            this.CheckBox_DateOff.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CheckBox_DateOff.Location = new System.Drawing.Point(580, 48);
+            this.CheckBox_DateOff.Name = "CheckBox_DateOff";
+            this.CheckBox_DateOff.Size = new System.Drawing.Size(86, 17);
+            this.CheckBox_DateOff.TabIndex = 21;
+            this.CheckBox_DateOff.Text = "Любая дата";
+            this.CheckBox_DateOff.UseVisualStyleBackColor = true;
+            this.CheckBox_DateOff.CheckedChanged += new System.EventHandler(this.CheckBox_DateOff_CheckedChanged);
+            // 
+            // BT_ClerAll_3Form
+            // 
+            this.BT_ClerAll_3Form.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT_ClerAll_3Form.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BT_ClerAll_3Form.Location = new System.Drawing.Point(162, 401);
+            this.BT_ClerAll_3Form.Margin = new System.Windows.Forms.Padding(2);
+            this.BT_ClerAll_3Form.Name = "BT_ClerAll_3Form";
+            this.BT_ClerAll_3Form.Size = new System.Drawing.Size(142, 38);
+            this.BT_ClerAll_3Form.TabIndex = 24;
+            this.BT_ClerAll_3Form.Text = "Очистить всё";
+            this.BT_ClerAll_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClerAll_3Form.Click += new System.EventHandler(this.BT_ClerAll_3Form_Click);
+            // 
+            // BT_ClearTypePC_3Form
+            // 
+            this.BT_ClearTypePC_3Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT_ClearTypePC_3Form.Location = new System.Drawing.Point(8, 126);
+            this.BT_ClearTypePC_3Form.Name = "BT_ClearTypePC_3Form";
+            this.BT_ClearTypePC_3Form.Size = new System.Drawing.Size(91, 46);
+            this.BT_ClearTypePC_3Form.TabIndex = 22;
+            this.BT_ClearTypePC_3Form.Text = "Очистить поле";
+            this.BT_ClearTypePC_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClearTypePC_3Form.Click += new System.EventHandler(this.BT_ClearTypePC_3Form_Click);
+            // 
+            // BT_ClearCPU_3Form
+            // 
+            this.BT_ClearCPU_3Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT_ClearCPU_3Form.Location = new System.Drawing.Point(107, 126);
+            this.BT_ClearCPU_3Form.Name = "BT_ClearCPU_3Form";
+            this.BT_ClearCPU_3Form.Size = new System.Drawing.Size(91, 46);
+            this.BT_ClearCPU_3Form.TabIndex = 23;
+            this.BT_ClearCPU_3Form.Text = "Очистить поле";
+            this.BT_ClearCPU_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClearCPU_3Form.Click += new System.EventHandler(this.BT_ClearCPU_3Form_Click);
+            // 
+            // BT_ClearGPU_3Form
+            // 
+            this.BT_ClearGPU_3Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT_ClearGPU_3Form.Location = new System.Drawing.Point(202, 126);
+            this.BT_ClearGPU_3Form.Name = "BT_ClearGPU_3Form";
+            this.BT_ClearGPU_3Form.Size = new System.Drawing.Size(149, 46);
+            this.BT_ClearGPU_3Form.TabIndex = 24;
+            this.BT_ClearGPU_3Form.Text = "Очистить поле";
+            this.BT_ClearGPU_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClearGPU_3Form.Click += new System.EventHandler(this.BT_ClearGPU_3Form_Click);
+            // 
+            // BT_ClearRAM_3Form
+            // 
+            this.BT_ClearRAM_3Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT_ClearRAM_3Form.Location = new System.Drawing.Point(355, 126);
+            this.BT_ClearRAM_3Form.Name = "BT_ClearRAM_3Form";
+            this.BT_ClearRAM_3Form.Size = new System.Drawing.Size(64, 46);
+            this.BT_ClearRAM_3Form.TabIndex = 25;
+            this.BT_ClearRAM_3Form.Text = "Очистить поле";
+            this.BT_ClearRAM_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClearRAM_3Form.Click += new System.EventHandler(this.BT_ClearRAM_3Form_Click);
+            // 
+            // BT_ClearROM_3Form
+            // 
+            this.BT_ClearROM_3Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT_ClearROM_3Form.Location = new System.Drawing.Point(424, 126);
+            this.BT_ClearROM_3Form.Name = "BT_ClearROM_3Form";
+            this.BT_ClearROM_3Form.Size = new System.Drawing.Size(150, 46);
+            this.BT_ClearROM_3Form.TabIndex = 26;
+            this.BT_ClearROM_3Form.Text = "Очистить поле";
+            this.BT_ClearROM_3Form.UseVisualStyleBackColor = true;
+            this.BT_ClearROM_3Form.Click += new System.EventHandler(this.BT_ClearROM_3Form_Click);
+            // 
             // FindForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BT_ClerAll_3Form);
             this.Controls.Add(this.CloseForm3);
             this.Controls.Add(this.TB_Result);
             this.Controls.Add(this.BT_Find3Form);
@@ -381,7 +478,14 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1_3Form;
         private System.Windows.Forms.Button BT_Find3Form;
         private System.Windows.Forms.TextBox TB_Result;
-        private System.Windows.Forms.DomainUpDown domainUpDown1;
+        private System.Windows.Forms.DomainUpDown UpDown_RAM3Form;
         private System.Windows.Forms.Button CloseForm3;
+        private System.Windows.Forms.CheckBox CheckBox_DateOff;
+        private System.Windows.Forms.Button BT_ClerAll_3Form;
+        private System.Windows.Forms.Button BT_ClearROM_3Form;
+        private System.Windows.Forms.Button BT_ClearRAM_3Form;
+        private System.Windows.Forms.Button BT_ClearGPU_3Form;
+        private System.Windows.Forms.Button BT_ClearCPU_3Form;
+        private System.Windows.Forms.Button BT_ClearTypePC_3Form;
     }
 }
