@@ -297,5 +297,10 @@ namespace CS_LAB_02
         {
             SaveToFile();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -76,10 +76,11 @@ namespace CS_LAB_02
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.загрузитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.BT_About = new System.Windows.Forms.Button();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьКакToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.BT_About = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_TypePC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_GPU)).BeginInit();
@@ -364,6 +365,7 @@ namespace CS_LAB_02
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.проектToolStripMenuItem,
             this.файлToolStripMenuItem});
@@ -406,14 +408,10 @@ namespace CS_LAB_02
             resources.ApplyResources(this.загрузитьToolStripMenuItem, "загрузитьToolStripMenuItem");
             this.загрузитьToolStripMenuItem.Click += new System.EventHandler(this.загрузитьToolStripMenuItem_Click);
             // 
-            // BT_About
+            // toolStripSeparator1
             // 
-            this.BT_About.BackgroundImage = global::CS_LAB_02.Properties.Resources.AboutIcon;
-            resources.ApplyResources(this.BT_About, "BT_About");
-            this.BT_About.Image = global::CS_LAB_02.Properties.Resources.AboutIcon;
-            this.BT_About.Name = "BT_About";
-            this.BT_About.UseVisualStyleBackColor = true;
-            this.BT_About.Click += new System.EventHandler(this.BT_About_Click);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // сохранитьToolStripMenuItem
             // 
@@ -426,15 +424,27 @@ namespace CS_LAB_02
             this.сохранитьКакToolStripMenuItem.Name = "сохранитьКакToolStripMenuItem";
             resources.ApplyResources(this.сохранитьКакToolStripMenuItem, "сохранитьКакToolStripMenuItem");
             // 
-            // toolStripSeparator1
+            // BT_About
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.BT_About.BackgroundImage = global::CS_LAB_02.Properties.Resources.AboutIcon;
+            resources.ApplyResources(this.BT_About, "BT_About");
+            this.BT_About.Image = global::CS_LAB_02.Properties.Resources.AboutIcon;
+            this.BT_About.Name = "BT_About";
+            this.BT_About.UseVisualStyleBackColor = true;
+            this.BT_About.Click += new System.EventHandler(this.BT_About_Click);
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BT_About);
             this.Controls.Add(this.CloseForm1);
             this.Controls.Add(this.BT_Find);
@@ -524,6 +534,7 @@ namespace CS_LAB_02
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сохранитьКакToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

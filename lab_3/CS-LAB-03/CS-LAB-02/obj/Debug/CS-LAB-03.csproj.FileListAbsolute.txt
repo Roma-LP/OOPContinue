@@ -84,3 +84,5 @@ D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-03.csproj.
 D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-02.exe
 D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS-LAB-02.pdb
 D:\БГТУ\ООТП\LP_03\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.AboutForm.resources
+C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.AboutForm.resources
+C:\БГТУ\ООТП (4 сем)\lab_3\CS-LAB-03\CS-LAB-02\obj\Debug\CS_LAB_02.FindForm.resources
