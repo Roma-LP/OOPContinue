@@ -195,6 +195,29 @@ namespace CS_LAB_02
             MessageBox.Show("Файл сохранён");
         }
 
+        private void SAveFileAs()
+        {
+            saveFileDialog_Form1.Filter = "Текстовые файлы (*.xml)|*.xml";
+            if (saveFileDialog_Form1.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = saveFileDialog_Form1.FileName;
+
+            XmlSerializer formatter = new XmlSerializer(typeof(Users));
+            using (FileStream fs = new FileStream(filename , FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, DataUser);
+            }
+
+            //Если равно true, то новые данные добавляются в конец файла
+            //Если равно false, то файл перезаписываетсяя заново
+            using (StreamWriter sw = new StreamWriter(filename.Remove(filename.Length-3)+ "txt", false, Encoding.UTF8))
+            {
+                sw.WriteLine(OutData.Text);
+            }
+            MessageBox.Show("Файл сохранён  как: "+ filename);
+        }
+
         private void BT_Load_Click(object sender, EventArgs e)
         {
             LoadFromFile();
@@ -298,9 +321,9 @@ namespace CS_LAB_02
             SaveToFile();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void сохранитьКакToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            SAveFileAs();
         }
     }
 }

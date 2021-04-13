@@ -80,7 +80,7 @@ namespace CS_LAB_02
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьКакToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BT_About = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.saveFileDialog_Form1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_TypePC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_GPU)).BeginInit();
@@ -345,10 +345,11 @@ namespace CS_LAB_02
             // 
             // BT_Find
             // 
+            this.BT_Find.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BT_Find.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.BT_Find, "BT_Find");
             this.BT_Find.Name = "BT_Find";
-            this.BT_Find.UseVisualStyleBackColor = true;
+            this.BT_Find.UseVisualStyleBackColor = false;
             this.BT_Find.Click += new System.EventHandler(this.BT_Find_Click);
             // 
             // CloseForm1
@@ -423,6 +424,7 @@ namespace CS_LAB_02
             // 
             this.сохранитьКакToolStripMenuItem.Name = "сохранитьКакToolStripMenuItem";
             resources.ApplyResources(this.сохранитьКакToolStripMenuItem, "сохранитьКакToolStripMenuItem");
+            this.сохранитьКакToolStripMenuItem.Click += new System.EventHandler(this.сохранитьКакToolStripMenuItem_Click);
             // 
             // BT_About
             // 
@@ -433,18 +435,10 @@ namespace CS_LAB_02
             this.BT_About.UseVisualStyleBackColor = true;
             this.BT_About.Click += new System.EventHandler(this.BT_About_Click);
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.BT_About);
             this.Controls.Add(this.CloseForm1);
             this.Controls.Add(this.BT_Find);
@@ -534,7 +528,7 @@ namespace CS_LAB_02
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сохранитьКакToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog_Form1;
     }
 }
 

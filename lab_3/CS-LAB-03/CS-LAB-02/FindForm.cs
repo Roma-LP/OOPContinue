@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace CS_LAB_02
 {
     public partial class FindForm : Form
     {
         Users users;
+        Users findUsers = new Users();
         public FindForm(Users users)
         {
             this.users = users;
@@ -76,6 +79,7 @@ namespace CS_LAB_02
                                     if (dateTimePicker1_3Form.Value.ToShortDateString().Equals(users.UserList[i].Pc.DateOrder.ToShortDateString()) || CheckBox_DateOff.Checked)
                                     {
                                         TB_Result.Text += users.UserList[i].ToString() + "\r\n";
+                                        findUsers.Add(users.UserList[i]);
                                     }
                                 }
                             }
@@ -198,6 +202,34 @@ namespace CS_LAB_02
         private void BT_ClearROM_3Form_Click(object sender, EventArgs e)
         {
             ClearROM();
+        }
+
+        private void SaveFindForm_Click(object sender, EventArgs e)
+        {
+            if(TB_Result.Text.Equals(""))
+            {
+                MessageBox.Show("Нет результата!");
+                return;
+            }
+            saveFileDialog_Form3.Filter = "Текстовые файлы (*.xml)|*.xml";
+            if (saveFileDialog_Form3.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = saveFileDialog_Form3.FileName;
+
+            XmlSerializer formatter = new XmlSerializer(typeof(Users));
+            using (FileStream fs = new FileStream(filename, FileMode.Create))
+            {
+                formatter.Serialize(fs, findUsers);
+            }
+
+            //Если равно true, то новые данные добавляются в конец файла
+            //Если равно false, то файл перезаписываетсяя заново
+            using (StreamWriter sw = new StreamWriter(filename.Remove(filename.Length - 3) + "txt", false, Encoding.UTF8))
+            {
+                sw.WriteLine(TB_Result.Text);
+            }
+            MessageBox.Show("Файл сохранён  как: " + filename);
         }
     }
 }
