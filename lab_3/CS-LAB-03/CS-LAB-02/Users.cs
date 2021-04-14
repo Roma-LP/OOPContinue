@@ -28,8 +28,6 @@ namespace CS_LAB_02
             }
         }
 
-
-
         public int Count()
         {
             return UserList.Count;

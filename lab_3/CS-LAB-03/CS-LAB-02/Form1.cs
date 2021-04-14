@@ -377,8 +377,10 @@ namespace CS_LAB_02
         }
         private void пЗУToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            ForSortIComparer<PC> cp = new ForSortIComparer<PC>();
             //var pr = DataUser.UserList.Pc.ROM.Sort;
-            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.ROM));
+            //DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.ROM, cp));
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc, cp));
             UpDateOutResult();
         }
 

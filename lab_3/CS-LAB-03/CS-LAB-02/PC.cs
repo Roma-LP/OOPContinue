@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace CS_LAB_02
 {
     [Serializable]
-    public class PC: IComparable
+    public class PC : IComparable<string>
     {
-       public string TypePc;      // Ноутбук  Сервер   Рабочая станция
-       public string CPU;         // AMD Intel
-       public string GPU;         // Видеокрта
-       public int RAM;            // Оперативная память
-       public List<string> ROM;            // HDD  SSD
-       public DateTime DateOrder; // Дата заказа
+        public string TypePc;      // Ноутбук  Сервер   Рабочая станция
+        public string CPU;         // AMD Intel
+        public string GPU;         // Видеокрта
+        public int RAM;            // Оперативная память
+        public List<string> ROM;            // HDD  SSD
+        public DateTime DateOrder; // Дата заказа
 
         public PC() { }
         public PC(string typePc, string cpu, string gPU, int rAM, List<string> rOM, DateTime dateOrder)
@@ -42,29 +42,41 @@ namespace CS_LAB_02
 
         public override string ToString()
         {
-            return TypePc + "  " + CPU + "  " + GPU + "  " + RAM + "-GB  "+GetStrROM()+"  "+DateOrder.ToShortDateString();
+            return TypePc + "  " + CPU + "  " + GPU + "  " + RAM + "-GB  " + GetStrROM() + "  " + DateOrder.ToShortDateString();
         }
 
         public string GetStrROM()
         {
-            string str ="" ;
-            for(int i=0;i<ROM.Count;i++)
+            string str = "";
+            for (int i = 0; i < ROM.Count; i++)
             {
-                str = str + ROM[i]+" ";
+                str = str + ROM[i] + " ";
             }
             return str;
         }
-        
-        public int CompareTo(object obj)
-        {
-            PC p = obj as PC;
-            if (p != null)
-            {
 
-            }
+        public int CompareTo(string obj)
+        {
+            //PC p = obj as PC;
+            //if (p != null)
+            //{
+            //    if (p.ROM.Count < this.ROM.Count)
+            //        return 1;
+            //    else
+            //        if (p.ROM.Count > this.ROM.Count)
+            //        return -1;
+            //    else
+            //        return 0;
+
+            //}
+            //else
+            //    throw new Exception("Невозможно сравнить два объекта");
+            if (this.GetStrROM().Length > obj.Length)
+                return 1;
+            if (this.GetStrROM().Length < obj.Length)
+                return -1;
             else
-                throw new Exception("Невозможно сравнить два объекта");
-            return 0;
+                return 0;
         }
     }
 }

@@ -31,6 +31,4 @@ namespace CS_LAB_02
             return FirstName+"  " + SecName+"  " + Number +"  "+ NameFile+"  "  + Pc.ToString();
         }
     }
-
-
 }
