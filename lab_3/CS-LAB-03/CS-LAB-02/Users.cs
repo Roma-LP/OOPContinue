@@ -20,12 +20,25 @@ namespace CS_LAB_02
         {
             UserList.Add(user);
         }
+        public void Add(Users users)
+        {
+            for (int i = 0; i < users.UserList.Count; i++)
+            {
+                UserList.Add(users.UserList[i]);
+            }
+        }
+
+
 
         public int Count()
         {
             return UserList.Count;
         }
 
+        public void SortedList(List<User> pr)
+        {
+            UserList = new List<User>(pr);
+        }
         public Users() { }
     }
 }

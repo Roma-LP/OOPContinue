@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserList>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Рабочая станция</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+  </UserList>
+</Users>

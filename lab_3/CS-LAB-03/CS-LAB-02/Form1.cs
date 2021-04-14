@@ -17,7 +17,7 @@ namespace CS_LAB_02
     {
         Users DataUser = new Users();
         PC FormPC;
-        public string NameFile;
+        public string NameFile = "NoName";
         bool CanContinue = false;
         public Form1()
         {
@@ -49,7 +49,7 @@ namespace CS_LAB_02
                 errorProvider_TypePC.SetError(LB_typePc, "Не указан тип компьютера!");
                 CanContinue = false;
             }
-            else 
+            else
             {
                 errorProvider_TypePC.Clear();
                 CanContinue = true;
@@ -78,7 +78,7 @@ namespace CS_LAB_02
                     CanContinue = false;
                 }
             }
-                errorProvider_CPU.Clear();
+            errorProvider_CPU.Clear();
             CanContinue = true;
         }
         private void CheckBox_RAM_Validating(object sender, EventArgs e)
@@ -103,20 +103,20 @@ namespace CS_LAB_02
 
         private void BT_Add_Click(object sender, EventArgs e)
         {
-            if(!CanContinue)
+            if (!CanContinue)
             {
                 MessageBox.Show("Заполните данные");
                 return;
             }
             FormPC = new PC(ComboBox_TypePC.Text,
-                GetRadioButton(), 
+                GetRadioButton(),
                 UpDown_GPU.Text,
                 TrackBarRAM.Value,
                 GetCheckBox(),
                 dateTimePicker1.Value.Date);
 
-           // DataBase.Rows.Add(FormPC);
-            Form2 SecondForm = new Form2(FormPC,this);
+            // DataBase.Rows.Add(FormPC);
+            Form2 SecondForm = new Form2(FormPC, this);
             SecondForm.Show();
         }
 
@@ -129,8 +129,8 @@ namespace CS_LAB_02
         {
             //--------------------------------------------------------------------------------------
             // приводим отправителя к элементу типа RadioButton
-            CheckBox radioButton =(CheckBox)sender;
-            
+            CheckBox radioButton = (CheckBox)sender;
+
         }
 
         private List<string> GetCheckBox()
@@ -153,7 +153,7 @@ namespace CS_LAB_02
 
         private string GetRadioButton()
         {
-           string str="";
+            string str = "";
             foreach (Control item in GroupLB_CPU.Controls)
             {
                 if (item is RadioButton)
@@ -181,15 +181,15 @@ namespace CS_LAB_02
         private void SaveToFile()
         {
             XmlSerializer formatter = new XmlSerializer(typeof(Users));
-            using (FileStream fs = new FileStream("../../../"+NameFile +".xml", FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream("../../../" + NameFile + ".xml", FileMode.OpenOrCreate))
             {
-                formatter.Serialize(fs,DataUser);
+                formatter.Serialize(fs, DataUser);
             }
 
             //Если равно true, то новые данные добавляются в конец файла
             //Если равно false, то файл перезаписываетсяя заново
-            using (StreamWriter sw = new StreamWriter("../../../"+NameFile +".txt", false, Encoding.UTF8))
-            { 
+            using (StreamWriter sw = new StreamWriter("../../../" + NameFile + ".txt", false, Encoding.UTF8))
+            {
                 sw.WriteLine(OutData.Text);
             }
             MessageBox.Show("Файл сохранён");
@@ -204,18 +204,18 @@ namespace CS_LAB_02
             string filename = saveFileDialog_Form1.FileName;
 
             XmlSerializer formatter = new XmlSerializer(typeof(Users));
-            using (FileStream fs = new FileStream(filename , FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
             {
                 formatter.Serialize(fs, DataUser);
             }
 
             //Если равно true, то новые данные добавляются в конец файла
             //Если равно false, то файл перезаписываетсяя заново
-            using (StreamWriter sw = new StreamWriter(filename.Remove(filename.Length-3)+ "txt", false, Encoding.UTF8))
+            using (StreamWriter sw = new StreamWriter(filename.Remove(filename.Length - 3) + "txt", false, Encoding.UTF8))
             {
                 sw.WriteLine(OutData.Text);
             }
-            MessageBox.Show("Файл сохранён  как: "+ filename);
+            MessageBox.Show("Файл сохранён  как: " + filename);
         }
 
         private void BT_Load_Click(object sender, EventArgs e)
@@ -234,12 +234,12 @@ namespace CS_LAB_02
             XmlSerializer formatter = new XmlSerializer(typeof(Users));
             using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
             {
-                DataUser = (Users)formatter.Deserialize(fs);
+                AddInListUsers((Users)formatter.Deserialize(fs));
                 AddUsersInDataBase();
                 //MessageBox.Show("Объект десериализован");
             }
             // читаем файл в строку
-            string fileText = System.IO.File.ReadAllText(filename.Remove(filename.Length-3)+"txt");
+            string fileText = System.IO.File.ReadAllText(filename.Remove(filename.Length - 3) + "txt");
             OutData.Text += fileText.Remove(fileText.Length - 2);
             //MessageBox.Show("Файл открыт");
         }
@@ -249,9 +249,14 @@ namespace CS_LAB_02
             DataUser.Add(user);
         }
 
+        public void AddInListUsers(Users users)
+        {
+            DataUser.Add(users);
+        }
+
         public void AddUsersInDataBase()
         {
-            for(int i=0;i<DataUser.UserList.Count;i++)
+            for (int i = 0; i < DataUser.UserList.Count; i++)
             {
                 DataBase.Rows.Add(DataUser.UserList[i].Pc.TypePc,
                 DataUser.UserList[i].Pc.CPU,
@@ -267,16 +272,25 @@ namespace CS_LAB_02
         }
         public void AddUsersInDataBase(User user)
         {
-                DataBase.Rows.Add(user.Pc.TypePc,
-                user.Pc.CPU,
-                user.Pc.GPU,
-                user.Pc.RAM,
-                user.Pc.GetStrROM(),
-                user.Pc.DateOrder.ToShortDateString(),
-                user.FirstName,
-                user.SecName,
-                user.Number,
-                user.NameFile);
+            DataBase.Rows.Add(user.Pc.TypePc,
+            user.Pc.CPU,
+            user.Pc.GPU,
+            user.Pc.RAM,
+            user.Pc.GetStrROM(),
+            user.Pc.DateOrder.ToShortDateString(),
+            user.FirstName,
+            user.SecName,
+            user.Number,
+            user.NameFile);
+        }
+
+        public void AddUsersInOutData()
+        {
+            for (int i = 0; i < DataUser.UserList.Count; i++)
+            {
+                OutData.Text += DataUser.UserList[i].ToString() + "\r\n";
+
+            }
         }
 
         private void BT_Find_Click(object sender, EventArgs e)
@@ -324,6 +338,64 @@ namespace CS_LAB_02
         private void сохранитьКакToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SAveFileAs();
+        }
+
+        private void UpDateOutResult()
+        {
+            DataBase.Rows.Clear();
+            AddUsersInDataBase();
+            OutData.Text = "";
+            AddUsersInOutData();
+        }
+
+        private void типКомпьютераToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //DataUser.UserList = from i in DataUser.UserList
+            //                    orderby i.Pc.TypePc
+            //                    select i;
+            //DataUser.UserList = (List<User>)DataUser.UserList.OrderBy(i => i.Pc.TypePc);
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.TypePc));
+            UpDateOutResult();
+        }
+
+        private void процессорToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.CPU));
+            UpDateOutResult();
+        }
+
+        private void видеокртаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.GPU));
+            UpDateOutResult();
+        }
+
+        private void оЗУToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.RAM));
+            UpDateOutResult();
+        }
+        private void пЗУToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //var pr = DataUser.UserList.Pc.ROM.Sort;
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.ROM));
+            UpDateOutResult();
+        }
+
+        private void датаПокупкиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataUser.UserList = new List<User>(DataUser.UserList.OrderBy(i => i.Pc.DateOrder));
+            DataBase.Rows.Clear();
+            AddUsersInDataBase();
+            OutData.Text = "";
+            AddUsersInOutData();
+        }
+
+        private void BT_DeleteRows_Click(object sender, EventArgs e)
+        {
+            DataUser.UserList.RemoveAt(DataBase.SelectedCells[0].RowIndex);
+            //DataBase.Rows.RemoveAt(DataBase.SelectedCells[0].RowIndex);
+            UpDateOutResult();
         }
     }
 }

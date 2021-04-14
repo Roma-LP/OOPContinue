@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserList>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-06T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2000-02-10T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2000-02-06T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2000-01-06T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-30T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-01-07T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM />
+        <DateOrder>2021-04-14T00:00:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+  </UserList>
+</Users>

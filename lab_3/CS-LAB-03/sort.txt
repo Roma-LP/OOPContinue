@@ -1,0 +1,8 @@
+﻿    (   )   -  sort  Ноутбук  AMD    6-GB  500 GB 250 GB 1 TB   14.04.2021
+    (   )   -    Сервер  Intel  Nvidia GTX 1660 TI  8-GB  500 GB 250 GB 1 TB   14.04.2021
+    (   )   -    Рабочая станция  AMD  AMD Radeon RX 6800X  8-GB  500 GB 250 GB 1 TB   14.04.2021
+    (   )   -    Рабочая станция  AMD  Nvidia GTX 1660  8-GB  500 GB 250 GB 1 TB   14.04.2021
+    (   )   -    Рабочая станция  Intel  Nvidia GTX 1660  8-GB  500 GB 250 GB 1 TB   14.04.2021
+    (   )   -    Ноутбук  Intel  AMD Radeon RX 6800X  14-GB  250 GB 2 TB   14.04.2021
+    (   )   -  sort  Рабочая станция  Intel  Nvidia GTX 1660 TI  6-GB  250 GB 2 TB   14.04.2021
+

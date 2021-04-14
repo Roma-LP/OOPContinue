@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CS_LAB_02
 {
     [Serializable]
-    public class PC
+    public class PC: IComparable
     {
        public string TypePc;      // Ноутбук  Сервер   Рабочая станция
        public string CPU;         // AMD Intel
@@ -53,6 +53,18 @@ namespace CS_LAB_02
                 str = str + ROM[i]+" ";
             }
             return str;
+        }
+        
+        public int CompareTo(object obj)
+        {
+            PC p = obj as PC;
+            if (p != null)
+            {
+
+            }
+            else
+                throw new Exception("Невозможно сравнить два объекта");
+            return 0;
         }
     }
 }

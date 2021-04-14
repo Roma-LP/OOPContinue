@@ -79,8 +79,16 @@ namespace CS_LAB_02
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьКакToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сортировкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.типКомпьютераToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.процессорToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.видеокртаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оЗУToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.пЗУToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.датаПокупкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BT_About = new System.Windows.Forms.Button();
             this.saveFileDialog_Form1 = new System.Windows.Forms.SaveFileDialog();
+            this.BT_DeleteRows = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_TypePC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider_GPU)).BeginInit();
@@ -369,7 +377,8 @@ namespace CS_LAB_02
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.проектToolStripMenuItem,
-            this.файлToolStripMenuItem});
+            this.файлToolStripMenuItem,
+            this.сортировкаToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -426,6 +435,54 @@ namespace CS_LAB_02
             resources.ApplyResources(this.сохранитьКакToolStripMenuItem, "сохранитьКакToolStripMenuItem");
             this.сохранитьКакToolStripMenuItem.Click += new System.EventHandler(this.сохранитьКакToolStripMenuItem_Click);
             // 
+            // сортировкаToolStripMenuItem
+            // 
+            this.сортировкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.типКомпьютераToolStripMenuItem,
+            this.процессорToolStripMenuItem,
+            this.видеокртаToolStripMenuItem,
+            this.оЗУToolStripMenuItem,
+            this.пЗУToolStripMenuItem,
+            this.датаПокупкиToolStripMenuItem});
+            this.сортировкаToolStripMenuItem.Name = "сортировкаToolStripMenuItem";
+            resources.ApplyResources(this.сортировкаToolStripMenuItem, "сортировкаToolStripMenuItem");
+            // 
+            // типКомпьютераToolStripMenuItem
+            // 
+            this.типКомпьютераToolStripMenuItem.Name = "типКомпьютераToolStripMenuItem";
+            resources.ApplyResources(this.типКомпьютераToolStripMenuItem, "типКомпьютераToolStripMenuItem");
+            this.типКомпьютераToolStripMenuItem.Click += new System.EventHandler(this.типКомпьютераToolStripMenuItem_Click);
+            // 
+            // процессорToolStripMenuItem
+            // 
+            this.процессорToolStripMenuItem.Name = "процессорToolStripMenuItem";
+            resources.ApplyResources(this.процессорToolStripMenuItem, "процессорToolStripMenuItem");
+            this.процессорToolStripMenuItem.Click += new System.EventHandler(this.процессорToolStripMenuItem_Click);
+            // 
+            // видеокртаToolStripMenuItem
+            // 
+            this.видеокртаToolStripMenuItem.Name = "видеокртаToolStripMenuItem";
+            resources.ApplyResources(this.видеокртаToolStripMenuItem, "видеокртаToolStripMenuItem");
+            this.видеокртаToolStripMenuItem.Click += new System.EventHandler(this.видеокртаToolStripMenuItem_Click);
+            // 
+            // оЗУToolStripMenuItem
+            // 
+            this.оЗУToolStripMenuItem.Name = "оЗУToolStripMenuItem";
+            resources.ApplyResources(this.оЗУToolStripMenuItem, "оЗУToolStripMenuItem");
+            this.оЗУToolStripMenuItem.Click += new System.EventHandler(this.оЗУToolStripMenuItem_Click);
+            // 
+            // пЗУToolStripMenuItem
+            // 
+            this.пЗУToolStripMenuItem.Name = "пЗУToolStripMenuItem";
+            resources.ApplyResources(this.пЗУToolStripMenuItem, "пЗУToolStripMenuItem");
+            this.пЗУToolStripMenuItem.Click += new System.EventHandler(this.пЗУToolStripMenuItem_Click);
+            // 
+            // датаПокупкиToolStripMenuItem
+            // 
+            this.датаПокупкиToolStripMenuItem.Name = "датаПокупкиToolStripMenuItem";
+            resources.ApplyResources(this.датаПокупкиToolStripMenuItem, "датаПокупкиToolStripMenuItem");
+            this.датаПокупкиToolStripMenuItem.Click += new System.EventHandler(this.датаПокупкиToolStripMenuItem_Click);
+            // 
             // BT_About
             // 
             this.BT_About.BackgroundImage = global::CS_LAB_02.Properties.Resources.AboutIcon;
@@ -435,10 +492,19 @@ namespace CS_LAB_02
             this.BT_About.UseVisualStyleBackColor = true;
             this.BT_About.Click += new System.EventHandler(this.BT_About_Click);
             // 
+            // BT_DeleteRows
+            // 
+            this.BT_DeleteRows.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.BT_DeleteRows, "BT_DeleteRows");
+            this.BT_DeleteRows.Name = "BT_DeleteRows";
+            this.BT_DeleteRows.UseVisualStyleBackColor = true;
+            this.BT_DeleteRows.Click += new System.EventHandler(this.BT_DeleteRows_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BT_DeleteRows);
             this.Controls.Add(this.BT_About);
             this.Controls.Add(this.CloseForm1);
             this.Controls.Add(this.BT_Find);
@@ -529,6 +595,14 @@ namespace CS_LAB_02
         private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сохранитьКакToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog_Form1;
+        private System.Windows.Forms.ToolStripMenuItem сортировкаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem типКомпьютераToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem процессорToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem видеокртаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оЗУToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem пЗУToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem датаПокупкиToolStripMenuItem;
+        private System.Windows.Forms.Button BT_DeleteRows;
     }
 }
 

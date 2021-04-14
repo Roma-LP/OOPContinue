@@ -22,6 +22,7 @@ namespace CS_LAB_02
             this.pc = pc;
             this.MainForm = form;
             InitializeComponent();
+            TB_NameFile.Text = MainForm.NameFile;
         }
 
         private void BT_SecSave_Click(object sender, EventArgs e)

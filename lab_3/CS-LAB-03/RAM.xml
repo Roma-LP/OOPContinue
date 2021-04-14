@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserList>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>1 TB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>NoName</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>250 GB</string>
+          <string>1 TB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>2</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>qw</NameFile>
+    </User>
+  </UserList>
+</Users>

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserList>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>AMD</CPU>
+        <GPU />
+        <RAM>6</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>sort</NameFile>
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Сервер</TypePc>
+        <CPU>Intel</CPU>
+        <GPU>Nvidia GTX 1660 TI</GPU>
+        <RAM>8</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Рабочая станция</TypePc>
+        <CPU>AMD</CPU>
+        <GPU>AMD Radeon RX 6800X</GPU>
+        <RAM>8</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Рабочая станция</TypePc>
+        <CPU>AMD</CPU>
+        <GPU>Nvidia GTX 1660</GPU>
+        <RAM>8</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Рабочая станция</TypePc>
+        <CPU>Intel</CPU>
+        <GPU>Nvidia GTX 1660</GPU>
+        <RAM>8</RAM>
+        <ROM>
+          <string>500 GB</string>
+          <string>250 GB</string>
+          <string>1 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Ноутбук</TypePc>
+        <CPU>Intel</CPU>
+        <GPU>AMD Radeon RX 6800X</GPU>
+        <RAM>14</RAM>
+        <ROM>
+          <string>250 GB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile />
+    </User>
+    <User>
+      <Pc>
+        <TypePc>Рабочая станция</TypePc>
+        <CPU>Intel</CPU>
+        <GPU>Nvidia GTX 1660 TI</GPU>
+        <RAM>6</RAM>
+        <ROM>
+          <string>250 GB</string>
+          <string>2 TB</string>
+        </ROM>
+        <DateOrder>2021-04-14T00:00:00+03:00</DateOrder>
+      </Pc>
+      <FirstName />
+      <SecName />
+      <Number>(   )   -</Number>
+      <NameFile>sort</NameFile>
+    </User>
+  </UserList>
+</Users>

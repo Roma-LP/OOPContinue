@@ -133,7 +133,41 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1537, 623</value>
   </data>
+  <data name="BT_DeleteRows.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BT_DeleteRows.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BT_DeleteRows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>763, 554</value>
+  </data>
+  <data name="BT_DeleteRows.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="BT_DeleteRows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 47</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BT_DeleteRows.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="BT_DeleteRows.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;BT_DeleteRows.Name" xml:space="preserve">
+    <value>BT_DeleteRows</value>
+  </data>
+  <data name="&gt;&gt;BT_DeleteRows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BT_DeleteRows.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BT_DeleteRows.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="BT_About.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -152,7 +186,6 @@
   <data name="BT_About.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 47</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BT_About.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
@@ -166,7 +199,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_About.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="CloseForm1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -208,7 +241,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CloseForm1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="BT_Find.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -244,7 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Find.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="OutData.Location" type="System.Drawing.Point, System.Drawing">
     <value>259, 225</value>
@@ -271,7 +304,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;OutData.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BT_Add.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -304,7 +337,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Add.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <metadata name="Column1_TypePC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -448,7 +481,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DataBase.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="CheckBox_ROM2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -457,7 +490,7 @@
     <value>NoControl</value>
   </data>
   <data name="CheckBox_ROM2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 52</value>
+    <value>5, 30</value>
   </data>
   <data name="CheckBox_ROM2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -469,7 +502,7 @@
     <value>13</value>
   </data>
   <data name="CheckBox_ROM2.Text" xml:space="preserve">
-    <value>500 GB</value>
+    <value>250 GB</value>
   </data>
   <data name="&gt;&gt;CheckBox_ROM2.Name" xml:space="preserve">
     <value>CheckBox_ROM2</value>
@@ -490,7 +523,7 @@
     <value>NoControl</value>
   </data>
   <data name="CheckBox_ROM1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 25</value>
+    <value>5, 55</value>
   </data>
   <data name="CheckBox_ROM1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -502,7 +535,7 @@
     <value>12</value>
   </data>
   <data name="CheckBox_ROM1.Text" xml:space="preserve">
-    <value>250 GB</value>
+    <value>500 GB</value>
   </data>
   <data name="&gt;&gt;CheckBox_ROM1.Name" xml:space="preserve">
     <value>CheckBox_ROM1</value>
@@ -610,7 +643,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_ROM.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="RadBut_CPU1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -706,7 +739,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupLB_CPU.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="BT_Load.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -739,7 +772,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Load.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="BT_Save.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -772,7 +805,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BT_Save.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="LB_DataBuy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -802,7 +835,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_DataBuy.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 506</value>
@@ -826,7 +859,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="LB_SizeTotalRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -856,7 +889,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeTotalRAM.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="TrackBarRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -883,7 +916,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TrackBarRAM.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="LB_SizeRAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -913,7 +946,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_SizeRAM.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="UpDown_GPU.Items" xml:space="preserve">
     <value>Nvidia GTX 1660</value>
@@ -952,7 +985,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UpDown_GPU.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="LB_GPU.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -982,7 +1015,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_GPU.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="ComboBox_TypePC.Items" xml:space="preserve">
     <value>Ноутбук</value>
@@ -1015,7 +1048,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ComboBox_TypePC.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="LB_typePc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1045,7 +1078,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LB_typePc.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>914, 17</value>
@@ -1063,7 +1096,7 @@
     <value>Выход</value>
   </data>
   <data name="проектToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 26</value>
+    <value>73, 24</value>
   </data>
   <data name="проектToolStripMenuItem.Text" xml:space="preserve">
     <value>Проект</value>
@@ -1090,16 +1123,58 @@
     <value>Сохранить как...</value>
   </data>
   <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 26</value>
+    <value>59, 24</value>
   </data>
   <data name="файлToolStripMenuItem.Text" xml:space="preserve">
     <value>Файл</value>
+  </data>
+  <data name="типКомпьютераToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="типКомпьютераToolStripMenuItem.Text" xml:space="preserve">
+    <value>Тип компьютера</value>
+  </data>
+  <data name="процессорToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="процессорToolStripMenuItem.Text" xml:space="preserve">
+    <value>Процессор</value>
+  </data>
+  <data name="видеокртаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="видеокртаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Видеокрта</value>
+  </data>
+  <data name="оЗУToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="оЗУToolStripMenuItem.Text" xml:space="preserve">
+    <value>ОЗУ</value>
+  </data>
+  <data name="пЗУToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="пЗУToolStripMenuItem.Text" xml:space="preserve">
+    <value>ПЗУ</value>
+  </data>
+  <data name="датаПокупкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="датаПокупкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Дата покупки</value>
+  </data>
+  <data name="сортировкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="сортировкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сортировка</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1537, 30</value>
+    <value>1537, 28</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1117,7 +1192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -1261,6 +1336,48 @@
     <value>сохранитьКакToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;сохранитьКакToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сортировкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>сортировкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сортировкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;типКомпьютераToolStripMenuItem.Name" xml:space="preserve">
+    <value>типКомпьютераToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;типКомпьютераToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;процессорToolStripMenuItem.Name" xml:space="preserve">
+    <value>процессорToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;процессорToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;видеокртаToolStripMenuItem.Name" xml:space="preserve">
+    <value>видеокртаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;видеокртаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;оЗУToolStripMenuItem.Name" xml:space="preserve">
+    <value>оЗУToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;оЗУToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;пЗУToolStripMenuItem.Name" xml:space="preserve">
+    <value>пЗУToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;пЗУToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;датаПокупкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>датаПокупкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;датаПокупкиToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;saveFileDialog_Form1.Name" xml:space="preserve">
